@@ -5,23 +5,36 @@ html, body {
 }
 
 #splash_page {
+  border: 0;
   background-image: url("https://www.pockettactics.com/wp-content/sites/pockettactics/2022/09/clash-royale-wallpapers-mobile-cave.jpg");
+  background-attachment: scroll;
+  background-position: center;
 }
 
 
 #splash_page h1 {
+  font-size: 32px;
+  border: 0;
   color: white;
   font-family: Helvetica;
 }
 
 
 #splash_page p {
+  border: 0;
   color: white;
   font-family: Helvetica;
 }
 
 #menu_page{
+  border: 0;
   background-image: url("https://www.pockettactics.com/wp-content/sites/pockettactics/2022/09/clash-royale-wallpapers-mobile-cave.jpg");
+  color:white
+}
+
+#menu_page h1{
+  font-size: 32px;
+  border: 0;
   color:white
 }
 
@@ -31,8 +44,24 @@ html, body {
   color:white
 }
 
+#leaderboard_page h2{
+  font-size: 32px;
+  color:white
+}
+
 #settings_page{
   background-image: url("https://www.pockettactics.com/wp-content/sites/pockettactics/2022/09/clash-royale-wallpapers-mobile-cave.jpg");
+  color:white
+}
+
+#settings_page h2{
+  font-size: 32px;
+  border: 0;
+  color:white
+}
+
+#settings_page a{
+  border: 0;
   color:white
 }
 
