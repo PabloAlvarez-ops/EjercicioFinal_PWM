@@ -704,6 +704,6 @@ a {
 }
 
 *:not(a) {
-  border: 1px solid pink;
+  border: 0;
 }
 /*# sourceMappingURL=main.css.map */
