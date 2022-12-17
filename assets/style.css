@@ -26,10 +26,36 @@ html, body {
   font-family: Helvetica;
 }
 
+  svg {
+    border: none;
+    position: absolute;
+    width: 100%;
+    height: 50%;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  svg {
+    animation: fadeIn 3s ease-in infinite alternate;
+   
+  }
+
+.slider {
+    color: red;
+}
+
 #menu_page{
   border: 0;
   background-image: url("https://www.pockettactics.com/wp-content/sites/pockettactics/2022/09/clash-royale-wallpapers-mobile-cave.jpg");
   color:white
+  
 }
 
 #menu_page h1{
